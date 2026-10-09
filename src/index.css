@@ -5,6 +5,6 @@ html, body, #root {
 }
 
 body {
-  background: linear-gradient(135deg, #f8fafc 0%, #eef2ff 100%);
+  background: #171512;
   font-family: 'Segoe UI', sans-serif;
 }

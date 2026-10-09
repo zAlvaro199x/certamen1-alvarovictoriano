@@ -11,7 +11,7 @@ import TableRow from '@mui/material/TableRow';
 import Typography from '@mui/material/Typography';
 
 function TablaGuerreros({ guerreros, onEliminar }) {
-  return (
+  return(
     <div className="container pb-4">
       <div className="row justify-content-center">
         <div className="col-12">
