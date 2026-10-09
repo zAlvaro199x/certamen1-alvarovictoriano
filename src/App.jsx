@@ -1,13 +1,12 @@
-import { Routes, Route } from 'react-router-dom';
-import HomePage from './pages/HomePage';
-import AboutPage from './pages/AboutPage';
+import Button from '@mui/material/Button';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<HomePage />} />
-      <Route path="/about" element={<AboutPage />} />
-    </Routes>
+    <div className="container text-center py-5">
+      <h1>Hola mundo</h1>
+      <Button variant="contained">Botón MUI</Button>
+    </div>
   );
 }
 
