@@ -6,12 +6,8 @@ function BarraNavegacion() {
   return (
     <AppBar position="static">
       <Toolbar sx={{ justifyContent: 'space-between' }}>
-        <Typography variant="h6" component="div">
-          Anillo Único
-        </Typography>
-        <Typography variant="body1" component="div">
-          Uno para dominarlos a todos
-        </Typography>
+        <Typography variant="h6" component="div">Anillo Unico</Typography>
+        <Typography variant="body1" component="div"> Uno para dominarlos a todos </Typography>
       </Toolbar>
     </AppBar>
   );

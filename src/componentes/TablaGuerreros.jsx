@@ -17,19 +17,17 @@ function TablaGuerreros({ guerreros, onEliminar }) {
         <div className="col-12">
           <Card>
             <CardContent>
-              <Typography variant="h5" component="h2" gutterBottom>
-                Despliegue del Ejército
-              </Typography>
+              <Typography variant="h5" component="h2" gutterBottom>Despliegue del Ejercito</Typography>
               <TableContainer>
                 <Table>
                   <TableHead>
                     <TableRow>
                       <TableCell>Nombre del Guerrero</TableCell>
                       <TableCell>Tipo de Guerrero</TableCell>
-                      <TableCell>Categoría / Rango</TableCell>
+                      <TableCell>Categoria / Rango</TableCell>
                       <TableCell>Nivel</TableCell>
-                      <TableCell>Clasificación</TableCell>
-                      <TableCell>Acción</TableCell>
+                      <TableCell>Clasificacion</TableCell>
+                      <TableCell>Accion</TableCell>
                     </TableRow>
                   </TableHead>
                   <TableBody>
@@ -48,10 +46,7 @@ function TablaGuerreros({ guerreros, onEliminar }) {
                         <TableCell>
                           <Button
                             color="error"
-                            onClick={() => onEliminar(indice)}
-                          >
-                            Asesinado por la aparición
-                          </Button>
+                            onClick={() => onEliminar(indice)} sx={{ textTransform: 'none' }}> Asesinado por la aparicion </Button>
                         </TableCell>
                       </TableRow>
                     ))}

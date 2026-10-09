@@ -38,9 +38,7 @@ function FormularioGuerrero({ onRegistrar }) {
         <div className="col-12 col-lg-8">
           <Card>
             <CardContent>
-              <Typography variant="h5" component="h2" gutterBottom>
-                Ingresar Guerrero
-              </Typography>
+              <Typography variant="h5" component="h2" gutterBottom>Ingresar Guerrero</Typography>
               <form onSubmit={registrarGuerrero}>
                 <div className="row g-3">
                   <div className="col-12">
@@ -66,9 +64,7 @@ function FormularioGuerrero({ onRegistrar }) {
                     </FormControl>
                   </div>
                   <div className="col-12 col-md-6">
-                    <Typography gutterBottom>
-                      Nivel de Combate: {nivel}
-                    </Typography>
+                    <Typography gutterBottom>Nivel de Combate: {nivel}</Typography>
                     <Slider
                       aria-label="Nivel de Combate"
                       value={nivel}
@@ -81,14 +77,14 @@ function FormularioGuerrero({ onRegistrar }) {
                   </div>
                   <div className="col-12 col-md-6">
                     <FormControl fullWidth required>
-                      <InputLabel id="categoria-guerrero">Categoría / Rango</InputLabel>
+                      <InputLabel id="categoria-guerrero">Categoria / Rango</InputLabel>
                       <Select
                         labelId="categoria-guerrero"
                         value={categoria}
-                        label="Categoría / Rango"
+                        label="Categoria / Rango"
                         onChange={(evento) => setCategoria(evento.target.value)}
                       >
-                        <MenuItem value="Capitán">Capitán</MenuItem>
+                        <MenuItem value="Capitan">Capitan</MenuItem>
                         <MenuItem value="Berserker">Berserker</MenuItem>
                         <MenuItem value="Explorador">Explorador</MenuItem>
                         <MenuItem value="Asediador">Asediador</MenuItem>
@@ -108,9 +104,7 @@ function FormularioGuerrero({ onRegistrar }) {
                     </FormControl>
                   </div>
                   <div className="col-12">
-                    <Button type="submit" variant="contained">
-                      Registrar Guerrero
-                    </Button>
+                    <Button type="submit" variant="contained">Registrar Guerrero</Button>
                   </div>
                 </div>
               </form>
